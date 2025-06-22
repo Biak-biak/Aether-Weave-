@@ -1,27 +1,25 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.sangte.aetherweave" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.biakbiak.aetherweave" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Aether Weave</name>
     <description>
         Connect the nodes. Build your combo. Weave your destiny.
     </description>
-    <author email="mnkim131@gmail.com" href="https://github.com/mnkim131">
-        Sangte Lambiaksang
+    <author email="mnkim131@gmail.com" href="https://github.com/Biak-biak">
+        Biak-biak
     </author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
-
-    <!-- Core App Preferences -->
     <preference name="Orientation" value="portrait" />
     <preference name="Fullscreen" value="true" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="AndroidXEnabled" value="true" />
     
+    <!-- This plugin forces all other plugins to use modern AndroidX libraries -->
+    <plugin name="cordova-plugin-androidx-adapter" spec="~1.1.3" />
     
-    
-    
-    <!-- This is YOUR MAIN APP ID from your screenshot -->
-    
+    <!-- This is your AdMob plugin -->
+    <plugin name="cordova-plugin-admob-free" spec="~0.27.0" />
 
 </widget>
