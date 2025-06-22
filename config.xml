@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.sangte.aetherweave" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Aether Weave</name>
+    <description>
+        Connect the nodes. Build your combo. Weave your destiny.
+    </description>
+    <author email="mnkim131@gmail.com" href="https://github.com/mnkim131">
+        Sangte Lambiaksang
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+    <!-- Core App Preferences -->
+    <preference name="Orientation" value="portrait" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="AndroidXEnabled" value="true" />
+    
+    <!-- This includes the AdMob plugin -->
+    <plugin name="cordova-plugin-admob-free" spec="~0.27.0" />
+    
+    <!-- This is YOUR MAIN APP ID from your screenshot -->
+    <preference name="ADMOB_APP_ID_ANDROID" value="ca-app-pub-6989088248302599~8993141386" />
+
+</widget>
