@@ -22,6 +22,6 @@
     <plugin name="cordova-plugin-admob-free" spec="~0.27.0" />
     
     <!-- This is YOUR MAIN APP ID from your screenshot -->
-    <preference name="ADMOB_APP_ID_ANDROID" value="ca-app-pub-6989088248302599~8993141386" />
+    
 
 </widget>
